@@ -25,5 +25,5 @@ interface PaginatorInterface extends \IteratorAggregate
      *
      * @phpstan-return \Traversable<int, PaginatorPageInterface>
      */
-    public function getIterator();
+    public function getIterator(): \Traversable;
 }
